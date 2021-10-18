@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
         title = "네비게이션 바"
 
-        if #available(iOS 14.0, *) {
+        if #available(iOS 13.0, *) {
             self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "ellipsis.circle"),
                                                                      menu: menu)
         } else {
